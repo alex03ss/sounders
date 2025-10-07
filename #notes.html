@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sounders Match Notes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Seattle Sounders FC — Match Notes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="roster.html">Roster</a></li>
+        <li><a href="notes.html" class="active">Match Notes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="notes-section">
+      <h2>Write Your Thoughts</h2>
+
+      <form id="note-form">
+        <label for="match-title">Match:</label>
+        <input type="text" id="match-title" placeholder="e.g. Oct 12 vs LA Galaxy" required />
+
+        <label for="note-content">Your Note:</label>
+        <textarea id="note-content" placeholder="Write your thoughts, reactions, or ratings..." required></textarea>
+
+        <button type="submit">Save Note</button>
+      </form>
+
+      <h3>Saved Notes</h3>
+      <ul id="notes-list">
+        <!-- Notes will appear here dynamically -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sounders Fan App</p>
+  </footer>
+
+  <script src="notes.js"></script>
+</body>
+</html>
