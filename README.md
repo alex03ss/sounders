@@ -26,5 +26,3 @@ A fan-built web app for tracking Seattle Sounders FC matches, player stats, and 
    git clone https://github.com/alex03ss/sounders.git
 
 ---
-
-Let me know if you want to add badges, screenshots, or a live demo link — I can help you polish it even further!
